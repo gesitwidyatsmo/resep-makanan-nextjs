@@ -2,32 +2,44 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.linear-gradient {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(116deg, #fdfefe, #d5f1e3 60%, #82d4aa 100%);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+.linear-gradient2 {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(50deg, #fdfefe, #d5f1e3 60%, #82d4aa 100%);
+}
+
+.loader {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  padding: 1px;
+  background: conic-gradient(#0000 10%, #134f4b) content-box;
+  -webkit-mask: repeating-conic-gradient(#0000 0deg, #000 1deg 20deg, #0000 21deg 36deg), radial-gradient(farthest-side, #0000 calc(100% - 9px), #000 calc(100% - 8px));
+  -webkit-mask-composite: destination-in;
+  mask-composite: intersect;
+  animation: s4 0.5s infinite steps(10);
+}
+@keyframes s4 {
+  to {
+    transform: rotate(1turn);
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.swiper-wrapper {
+  margin-bottom: 30px;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.swiper-pagination {
+  bottom: 0px !important;
+  color: #000;
+}
+
+.swiper-pagination .swiper-pagination-bullet {
+  background-color: #134f4b ;
 }
