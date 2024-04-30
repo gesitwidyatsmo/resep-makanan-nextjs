@@ -18,7 +18,7 @@ const InternasionalFood = () => {
 
         const bahansWithImages = data.meals.map((gambar) => ({
           ...gambar,
-          imageUrl: `/Negara/${gambar}.jpg`
+          imageUrl: `/Negara/${gambar.strArea}.jpg`
         }));
 
         setNegara(bahansWithImages);
