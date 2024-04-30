@@ -40,7 +40,7 @@ const Header = () => {
           {navItems.map((item, index) => (
             <Link key={index} href={`${item.href}`} className='cursor-pointer'>
               <div
-                className={`text-white font-Poppins font-medium text-sm py-2 px-5 rounded-full hover:bg-secondary dark:text-black  dark:hover:text-white ${
+                className={`text-secondary font-Poppins font-medium text-sm py-2 px-5 rounded-full hover:bg-secondary dark:text-black  dark:hover:text-white ${
                   pathname === item.href ? "bg-secondary dark:text-white" : ""
                 }`}
               >
