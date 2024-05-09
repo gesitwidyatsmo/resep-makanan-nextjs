@@ -1,4 +1,5 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![Group 61](https://github.com/gesitwidyatsmo/resep-makanan-nextjs/assets/140772511/8e3a0622-ef0c-4b35-9151-4f74a7dd1623)
+
 
 ## Getting Started
 
