@@ -17,7 +17,7 @@ const Internasional = () => {
       const data = await response.json();
       const bahansWithImages = data.meals.map((gambar) => ({
         ...gambar,
-        imageUrl: `Negara/${gambar.strArea.toLowerCase()}.jpg`
+        imageUrl: `/Negara/${gambar.strArea}.jpg`
       }));
 
       setInters(bahansWithImages);
