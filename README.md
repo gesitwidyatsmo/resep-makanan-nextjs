@@ -1,5 +1,6 @@
-![Group 61](https://github.com/gesitwidyatsmo/resep-makanan-nextjs/assets/140772511/8e3a0622-ef0c-4b35-9151-4f74a7dd1623)
-
+![home](https://github.com/gesitwidyatsmo/resep-makanan-nextjs/assets/140772511/4f4f5d63-4646-47db-b034-023be80fdc5c)
+![resep](https://github.com/gesitwidyatsmo/resep-makanan-nextjs/assets/140772511/1c619982-d1d4-4975-9be4-84badfc87c30)
+![detailresep](https://github.com/gesitwidyatsmo/resep-makanan-nextjs/assets/140772511/297ed0d8-7448-4033-9a26-99412bac1880)
 
 ## Getting Started
 
